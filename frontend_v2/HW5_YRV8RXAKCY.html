@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW5_YRV8RXAKCY Covid UI</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/HW5_YRV8RXAKCY.css">
+</head>
+
+<body>
+    <div class="header">
+        <div>
+            <p id="logo">P</p>
+        </div>
+        <div class="text">
+            <p>PaSE Covid-19 App</p>
+        </div>
+    </div>
+    <div class="dashboard">
+        <div class="cases">
+            <p>Total Cases <i class="fa fa-caret-up"></i></p>
+            <span id="total-cases">0</span>
+        </div>
+        <div class="cases">
+            <p>Recovered <i class="fa fa-caret-down"></i></p>
+            <span id="total-recovered">0</span>
+        </div>
+        <div class="cases">
+            <p>Active Cases <i class="fa fa-caret-up"></i></p>
+            <span id="total-active">0</span>
+        </div>
+        <div class="cases">
+            <p>Total deaths <i class="fa fa-caret-up"></i></p>
+            <span id="total-deaths">0</span>
+        </div>
+    </div>
+    <div id="loader" class="stats">
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th>Country_Region</th>
+                    <th>Active </th>
+                    <th>Recovered</th>
+                    <th>Deaths</th>
+                    <th>Confirmed</th>
+                </tr>
+            </thead>
+            <tbody id="tbd">
+                <div class="loader"> </div>
+                
+            </tbody>    
+        </table>
+        <div>
+            <div class="headlines">
+                <p>Health Tips</p>
+                <marquee style="font-weight: bolder">Stay Home,Stay Safe</marquee>
+            </div>
+            <div class="headlines">
+                <p>News and Updates</p>
+                <img src="./img/covid19.jpg" alt="scientist in a lab" width="195px" height="100px">
+            </div>
+        </div>
+    </div>
+    <script src="./js/HW5_YRV8RXAKCY.js"></script>
+</body>
+
+</html>
